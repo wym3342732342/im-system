@@ -1,15 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {Button} from "antd";
+
 
 function App() {
-  return (
-    <div>
-      <button>
-        这是一个按钮！
-      </button>
-    </div>
-  );
+    return (
+        <div>
+            <Button type="primary">
+                这是一个按钮！
+            </Button>
+        </div>
+    );
 }
 
 export default App;
